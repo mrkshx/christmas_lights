@@ -5,7 +5,6 @@ body {
 
 #fairy_lights {
   display: inline-flex;
-  overflow: hidden;
 }
 
 .bulb {
@@ -13,14 +12,14 @@ body {
   width: 50px;
   border-radius: 50%;
   background-color: grey;
-  margin: 0 25px;
+  margin: 25px;
   position: relative;
 }
 
 .bulb:not(:last-child):after {
   content: '';
   width: 100px;
-  border: 2px solid black;
+  border-bottom: 2px solid black;
   height: 50px;
   border-radius: 0 0 60% 60%;
   position: absolute;
