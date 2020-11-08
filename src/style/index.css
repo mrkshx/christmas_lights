@@ -43,3 +43,27 @@ body {
   font-weight: bold;
   box-shadow: 2px 2px 2px #912b04;
 }
+
+
+
+
+
+.blue {
+  background: blue;
+}
+
+.green {
+  background: green;
+}
+
+.red {
+  background: red;
+}
+
+.white {
+  background: white;
+}
+
+.yellow {
+  background: yellow;
+}
