@@ -10,10 +10,10 @@ body {
 
 .bulb {
   height: 50px;
-  width: 50px;
+  width: 15px;
   border-radius: 50%;
   background-color: grey;
-  margin: 25px;
+  margin: 42px;
   position: relative;
 }
 
