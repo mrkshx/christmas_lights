@@ -77,44 +77,54 @@ body {
 @keyframes glow-blue {
   0%, 100% {
     box-shadow: 0 0 15px 7px blue;
+    background: blue;
   }
   50% {
     box-shadow: none;
+    background: #082442;
   }
 }
 
 @keyframes glow-yellow {
   0%, 100% {
     box-shadow: 0 0 15px 7px yellow;
+    background: yellow;
   }
   50% {
     box-shadow: none;
+    background: #6E6516;
   }
 }
 
 @keyframes glow-green {
   0%, 100% {
     box-shadow: none;
+    background: #174a0e;
   }
   50% {
     box-shadow: 0 0 15px 7px green;
+    background: green;
   }
 }
 
 @keyframes glow-red {
   0%, 100% {
     box-shadow: none;
+    background: #520000;
   }
   50% {
     box-shadow: 0 0 15px 7px red;
+    background: red;
   }
 }
 
 @keyframes glow-white {
   0%, 100% {
     box-shadow: none;
+    background: #333333;
   }
   50% {
     box-shadow: 0 0 15px 7px white;
+    background: white;
   }
 }
