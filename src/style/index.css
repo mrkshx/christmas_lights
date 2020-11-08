@@ -50,20 +50,71 @@ body {
 
 .blue {
   background: blue;
+  animation: glow-blue 1s infinite alternate;
 }
 
 .green {
   background: green;
+  animation: glow-green 1s infinite alternate;
 }
 
 .red {
   background: red;
+  animation: glow-red 1s infinite alternate;
 }
 
 .white {
   background: white;
+  animation: glow-white 1s infinite alternate;
 }
 
 .yellow {
   background: yellow;
+  animation: glow-yellow 1s infinite alternate;
+}
+
+
+@keyframes glow-blue {
+  from {
+    box-shadow: none;
+  }
+  to {
+    box-shadow: 0 0 15px 7px blue;
+  }
+}
+
+@keyframes glow-yellow {
+  from {
+    box-shadow: none;
+  }
+  to {
+    box-shadow: 0 0 15px 7px yellow;
+  }
+}
+
+@keyframes glow-green {
+  from {
+    box-shadow: none;
+  }
+  to {
+    box-shadow: 0 0 15px 7px green;
+  }
+}
+
+@keyframes glow-red {
+  from {
+    box-shadow: none;
+  }
+  to {
+    box-shadow: 0 0 15px 7px red;
+  }
+}
+
+@keyframes glow-white {
+  from {
+    box-shadow: none;
+  }
+  to {
+    box-shadow: 0 0 15px 7px white;
+  }
 }
