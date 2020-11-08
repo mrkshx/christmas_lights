@@ -45,33 +45,42 @@ body {
 }
 
 
+.paused {
+  -webkit-animation: none !important;
+  -moz-animation: none !important;
+  -o-animation: none !important;
+  -ms-animation: none !important;
+  animation: none !important;
+}
+
+
 
 .dark-body {
   animation: body-light 0.5s normal forwards;
 }
 
 .blue {
-  background: #1C83F0;
+  background: #082442;
   animation: glow-blue 1.5s infinite;
 }
 
 .green {
-  background: green;
+  background: #174a0e;
   animation: glow-green 1.5s infinite;
 }
 
 .red {
-  background: red;
+  background: #520000;
   animation: glow-red 1.5s infinite;
 }
 
 .white {
-  background: white;
+  background: #333333;
   animation: glow-white 1.5s infinite;
 }
 
 .yellow {
-  background: yellow;
+  background: #6E6516;
   animation: glow-yellow 1.5s infinite;
 }
 
