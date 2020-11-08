@@ -1,0 +1,151 @@
+body {
+  text-align: center;
+  background: lightskyblue;
+}
+
+
+#fairy_lights {
+  display: inline-flex;
+}
+
+.bulb {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  background-color: grey;
+  margin: 25px;
+  position: relative;
+}
+
+.bulb:not(:last-child):after {
+  content: '';
+  width: 100px;
+  border-bottom: 2px solid black;
+  height: 50px;
+  border-radius: 0 0 60% 60%;
+  position: absolute;
+  top: -23px;
+  z-index: -1;
+}
+
+
+#control_panel {
+  margin-top: 30px;
+}
+
+#switch {
+  border-radius: 15px;
+  width: 100px;
+  margin: auto;
+  padding: 10px;
+  background-color: red;
+  color: white;
+  font-weight: bold;
+  box-shadow: 2px 2px 2px #912b04;
+}
+
+
+.paused {
+  -webkit-animation: none !important;
+  -moz-animation: none !important;
+  -o-animation: none !important;
+  -ms-animation: none !important;
+  animation: none !important;
+}
+
+
+
+.dark-body {
+  animation: body-light 0.5s normal forwards;
+}
+
+.blue {
+  background: #082442;
+  animation: glow-blue 1.5s infinite;
+}
+
+.green {
+  background: #174a0e;
+  animation: glow-green 1.5s infinite;
+}
+
+.red {
+  background: #520000;
+  animation: glow-red 1.5s infinite;
+}
+
+.white {
+  background: #333333;
+  animation: glow-white 1.5s infinite;
+}
+
+.yellow {
+  background: #6E6516;
+  animation: glow-yellow 1.5s infinite;
+}
+
+
+
+@keyframes body-light {
+  from {
+    background: lightskyblue;
+  }
+  to {
+    background: darkslategray;
+  }
+}
+
+@keyframes glow-blue {
+  0%, 100% {
+    box-shadow: 0 0 15px 7px #1C83F0;
+    background: #1C83F0;
+  }
+  50% {
+    box-shadow: none;
+    background: #082442;
+  }
+}
+
+@keyframes glow-yellow {
+  0%, 100% {
+    box-shadow: 0 0 15px 7px yellow;
+    background: yellow;
+  }
+  50% {
+    box-shadow: none;
+    background: #6E6516;
+  }
+}
+
+@keyframes glow-green {
+  0%, 100% {
+    box-shadow: none;
+    background: #174a0e;
+  }
+  50% {
+    box-shadow: 0 0 15px 7px green;
+    background: green;
+  }
+}
+
+@keyframes glow-red {
+  0%, 100% {
+    box-shadow: none;
+    background: #520000;
+  }
+  50% {
+    box-shadow: 0 0 15px 7px red;
+    background: red;
+  }
+}
+
+@keyframes glow-white {
+  0%, 100% {
+    box-shadow: none;
+    background: #333333;
+  }
+  50% {
+    box-shadow: 0 0 15px 7px white;
+    background: white;
+  }
+}
