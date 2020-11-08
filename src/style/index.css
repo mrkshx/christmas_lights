@@ -1,0 +1,16 @@
+body {
+  text-align: center;
+}
+
+
+#fairy_lights {
+  display: inline-flex;
+}
+
+.bulb {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  background-color: grey;
+  margin: 0 25px;
+}
