@@ -14,3 +14,13 @@ body {
   background-color: grey;
   margin: 0 25px;
 }
+
+.bulb:after {
+  content: '';
+  width: 100px;
+  border: 1px solid black;
+  height: 50px;
+  border-radius: 0 0 60% 60%;
+  position: absolute;
+  top: -23px;
+}
