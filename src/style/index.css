@@ -1,5 +1,6 @@
 body {
   text-align: center;
+  background: lightskyblue;
 }
 
 
@@ -45,7 +46,9 @@ body {
 
 
 
-
+.dark-body {
+  animation: body-light 0.5s normal forwards;
+}
 
 .blue {
   background: #1C83F0;
@@ -72,6 +75,16 @@ body {
   animation: glow-yellow 1.5s infinite;
 }
 
+
+
+@keyframes body-light {
+  from {
+    background: lightskyblue;
+  }
+  to {
+    background: darkslategray;
+  }
+}
 
 @keyframes glow-blue {
   0%, 100% {
