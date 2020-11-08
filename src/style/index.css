@@ -49,7 +49,7 @@ body {
 
 
 .blue {
-  background: blue;
+  background: #1C83F0;
   animation: glow-blue 1.5s infinite;
 }
 
@@ -76,8 +76,8 @@ body {
 
 @keyframes glow-blue {
   0%, 100% {
-    box-shadow: 0 0 15px 7px blue;
-    background: blue;
+    box-shadow: 0 0 15px 7px #1C83F0;
+    background: #1C83F0;
   }
   50% {
     box-shadow: none;
