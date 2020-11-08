@@ -27,3 +27,19 @@ body {
   top: -23px;
   z-index: -1;
 }
+
+
+#control_panel {
+  margin-top: 30px;
+}
+
+#switch {
+  border-radius: 15px;
+  width: 100px;
+  margin: auto;
+  padding: 10px;
+  background-color: red;
+  color: white;
+  font-weight: bold;
+  box-shadow: 2px 2px 2px #912b04;
+}
