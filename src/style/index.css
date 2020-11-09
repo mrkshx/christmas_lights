@@ -18,18 +18,6 @@ body {
   transform-origin: top center;
 }
 
-.bulb:not(:last-child):after {
-  content: '';
-  width: 100px;
-  border-bottom: 2px solid black;
-  height: 50px;
-  border-radius: 0 0 50% 50%;
-  position: absolute;
-  top: -38px;
-  z-index: -1;
-  transform-origin: 5% 85%;
-}
-
 .bulb:before {
   content: '';
   width: 12px;
@@ -41,6 +29,17 @@ body {
   left: 2px;
 }
 
+.wire {
+  width: 100px;
+  border-bottom: 2px solid black;
+  height: 50px;
+  border-radius: 0 0 50% 50%;
+  position: absolute;
+  top: -36px;
+  left: 8px;
+  z-index: -1;
+  transform-origin: 0% 70%;
+}
 
 #control_panel {
   margin-top: 30px;
